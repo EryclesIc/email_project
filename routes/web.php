@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +20,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/envia_email', function(){
     // return new App\Mail\newLaravelTips();
-    \Illuminate\Support\Facades\Mail::send(new App\Mail\newLaravelTips());
+    Mail::send(new App\Mail\newLaravelTips());
 });

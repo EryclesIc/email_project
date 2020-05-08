@@ -1,0 +1,6 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465
+MAIL_USERNAME=ery.xablau@gmail.com
+MAIL_PASSWORD=qssiacygivcrzpsu
+MAIL_ENCRYPTION=ssl
